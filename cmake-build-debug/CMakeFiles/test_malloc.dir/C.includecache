@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/A/CLionProjects/untitled/include/test_malloc.h
+stdio.h
+-
+
+C:/Users/A/CLionProjects/untitled/test_malloc.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+include/test_malloc.h
+C:/Users/A/CLionProjects/untitled/include/test_malloc.h
+

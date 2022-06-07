@@ -1,0 +1,3 @@
+C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\SRCH_binary.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\SRCH_binary.dir/objects.a @CMakeFiles\SRCH_binary.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\SRCH_binary.dir/objects.a -Wl,--no-whole-archive  -o SRCH_binary.exe -Wl,--out-implib,libSRCH_binary.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SRCH_binary.dir\linklibs.rsp

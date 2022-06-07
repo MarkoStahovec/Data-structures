@@ -1,0 +1,3 @@
+C:\Users\A\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\ALG_rabin_karp.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\ALG_rabin_karp.dir/objects.a @CMakeFiles\ALG_rabin_karp.dir\objects1.rsp
+C:\TDM-GCC-64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\ALG_rabin_karp.dir/objects.a -Wl,--no-whole-archive  -o ALG_rabin_karp.exe -Wl,--out-implib,libALG_rabin_karp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ALG_rabin_karp.dir\linklibs.rsp
